@@ -28,23 +28,7 @@ Dark theme.
 Custom circular buttons (RoundButton).
 Clear (AC) and Backspace (⌫) controls.
 
-├── Calculator.java        # Core arithmetic logic (add, subtract, multiply, divide)
-├── CalculatorApp.java     # Console interface + main entry for CLI/GUI switch
-├── CalculatorGUI.java     # Swing GUI, expression parser, custom buttons
-├── README.md              # Project documentation
-├── Calculator_Project_Report.*   # Project report (md/pdf/docx as required)
-└── screenshots/
-    ├── console_menu.png
-    ├── console_result.png
-    ├── gui_main_window.png
-    ├── gui_complex_expression.png
-    └── gui_error_dialog.png
 
-How to Run the Project
-Prerequisites
-Java JDK 8 or newer.
-
-Any editor/IDE (VS Code, IntelliJ IDEA, Eclipse) or plain terminal.
 
 Compilation
 From the project root folder, run:
@@ -126,4 +110,5 @@ Overrides paintComponent to draw a filled circle with anti-aliased edges.
 Overrides contains for correct circular hit detection.
 Overrides getPreferredSize to keep buttons consistent in size.
 Overrides getPreferredSize to keep buttons consistent in size.
+
 
